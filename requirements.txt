@@ -1,0 +1,17 @@
+ultralytics>=8.3.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+streamlit>=1.30.0
+plotly>=5.18.0
+reportlab>=4.0.0
+openpyxl>=3.1.0
+folium>=0.15.0
+streamlit-folium>=0.18.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+pillow>=10.0.0
+pytest>=8.0.0
+lap>=0.5.12

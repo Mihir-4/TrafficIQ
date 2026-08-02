@@ -1,0 +1,45 @@
+# Environment variables & Secrets (NEVER commit secrets/keys)
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Large Datasets & Archives
+dataset/raw/archive.zip
+*.zip
+*.tar.gz
+*.7z
+
+# Processed / Generated Output Dumps
+outputs/videos/*
+outputs/logs/*
+outputs/csv/*
+outputs/reports/*
+outputs/Session_*
+outputs/LiveSession_*
+!outputs/videos/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/csv/.gitkeep
+!outputs/reports/.gitkeep
+
+# SQLite database (optional ignore - ignore runtime state)
+database/traffic.db
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
