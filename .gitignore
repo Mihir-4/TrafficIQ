@@ -5,6 +5,13 @@
 secrets.toml
 .streamlit/secrets.toml
 
+# Non-deployment files (Notebooks, Tests, Specs, Documentation)
+notebooks/
+test/
+tests/
+project.md
+project_status/
+
 # Python Cache & Bytecode
 __pycache__/
 *.py[cod]
@@ -12,8 +19,8 @@ __pycache__/
 .pytest_cache/
 .coverage
 
-# Large Datasets & Archives
-dataset/raw/archive.zip
+# Datasets & Archives
+dataset/
 *.zip
 *.tar.gz
 *.7z
@@ -30,7 +37,7 @@ outputs/LiveSession_*
 !outputs/csv/.gitkeep
 !outputs/reports/.gitkeep
 
-# SQLite database (optional ignore - ignore runtime state)
+# SQLite database runtime state
 database/traffic.db
 
 # Virtual Environments
